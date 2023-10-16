@@ -1,10 +1,10 @@
 import React, {createContext,useState} from 'react'
 
 export const ThemeContext = createContext()
-const ContextTheme = (children) => {
-     const [darkTheme,setDarkTheme] =useState(false)
+const ContextTheme = ({children}) => {
+     const [darkTheme,setDarkTheme] = useState(true)
 
-     const themeHandler = () =>{
+     const themeHandler = ()=>{
         setDarkTheme((prev)=>!prev)
      }
 

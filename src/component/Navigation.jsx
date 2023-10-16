@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { HiMoon } from 'react-icons/hi';
 
@@ -9,7 +10,7 @@ const Navigation = () => {
       <div className='d-flex algn-items-center gap-2'>
         <h4 className='theme-text text-uppercase mt-1'>dark</h4>
 
-        <span>
+        <span className='theme-icon'>
           <HiMoon color='#697C9A' size='18px'/>
         </span>
       </div>
@@ -19,5 +20,3 @@ const Navigation = () => {
 }
 
 export default Navigation;
-
-
