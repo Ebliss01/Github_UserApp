@@ -50,6 +50,10 @@ h4{
   color: var(--darkgrey);
 }
 
+.logo-white{
+  color: var(--white);
+}
+
 .theme-text{
   color: var(--grey);
 }
